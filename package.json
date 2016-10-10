@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-dmajda",
+  "version": "1.0.0",
+  "description": "David Majda's ESLint configuration",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "homepage": "https://github.com/dmajda/eslint-config-dmajda",
+  "bugs": "https://github.com/dmajda/eslint-config-dmajda/issues",
+  "license": "MIT",
+  "author": "David Majda <david@majda.cz> (http://majda.cz/)",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "package.json"
+  ],
+  "main": "index",
+  "repository": "dmajda/eslint-config-dmajda",
+  "scripts": {
+    "test": "eslint index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=3.7.1"
+  },
+  "devDependencies": {
+    "eslint": "3.7.1"
+  },
+  "engines": {
+    "node": ">=4"
+  }
+}
